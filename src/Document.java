@@ -11,7 +11,6 @@ public abstract class Document {
         this.content = content;
     }
 
-    // Template Method
     public final void printDocument() {
         open();
         prepare();
